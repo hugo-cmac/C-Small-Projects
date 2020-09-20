@@ -1,7 +1,20 @@
 #include <stdio.h>
 
+
+
+
+
+/* int bitfilling() -> function to write:
+    - unsigned char *stream -> Output stream of bits 
+    - int bitsLeft -> Number of bits left in byte
+    - int pos -> byte position in output stream
+    - int value -> value to be written
+    - int size -> size of value in bits
+   Returns the byte position
+
+(beware with complements)*/
+
 int bitfilling(unsigned char *stream, int *bitsLeft, int pos, int value, int size){
-	
 	while (*bitsLeft <= size){
 		size -= *bitsLeft;
 		*bitsLeft = 8;
@@ -16,6 +29,15 @@ int bitfilling(unsigned char *stream, int *bitsLeft, int pos, int value, int siz
 
 	return pos;
 }
+
+
+
+/* int bitreading() -> function to read:
+    - unsigned char *stream -> input stream of bits 
+    - int *bitsLeft -> Number of bits left in byte
+    - int *pos -> byte position in input stream
+    - int size -> size of value in bits
+   Returns the value*/
 
 int bitreading(unsigned char *stream, int *bitsLeft, int *pos, int size){
     unsigned int n = 0;
