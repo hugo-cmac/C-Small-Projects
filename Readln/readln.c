@@ -6,7 +6,7 @@ unsigned int readln(int fildes, void *buf){
 	while((n += read(fildes, buf, 65536 )) != 0) {
 		while (n > i){
 			if(*(char*)(buf+i) == '\n')       
-            	return i;
+            			return i;
 			i++;
 		}
 	}
