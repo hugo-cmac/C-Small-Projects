@@ -12,8 +12,9 @@ Any question or idea of a small project of this kind, communicate or suggest.
 *Linked list example, with functions to add, delete, edit, preview and save the content data into a file* 
 
 **[Multicast Socket:](https://github.com/hugo-cmac/C-Small-Projects/blob/master/MulticastSocket/multicast.c)**
-[IPv4 Example](https://github.com/hugo-cmac/C-Small-Projects/tree/master/MulticastSocket/IPv4)
-[IPv6 Example](https://github.com/hugo-cmac/C-Small-Projects/tree/master/MulticastSocket/IPv6)
+* [IPv4 Example](https://github.com/hugo-cmac/C-Small-Projects/tree/master/MulticastSocket/IPv4)
+* [IPv6 Example](https://github.com/hugo-cmac/C-Small-Projects/tree/master/MulticastSocket/IPv6)
+
 *Multicast socket in C te send and receive datagrams*
 
 **[Ordered Linked List:](https://github.com/hugo-cmac/C-Small-Projects/blob/master/OrderedLinkedList/orderedlinkedlist.c)**
